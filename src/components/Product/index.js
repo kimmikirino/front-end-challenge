@@ -14,7 +14,6 @@ export default function Product({ product }) {
     return sumAmount;
   }, {}))
 
-  // console.log(amount)
   const dispatch = useDispatch();
 
   const handleAddProduct = id => {
